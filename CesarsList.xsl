@@ -4,7 +4,7 @@
 
     <html>
         <head>
-                <title>Paddy's Cafe Menu</title>
+                <title>Cesar's Wine Menu</title>
                 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
                 <link href="CesarsStyles.css" rel="stylesheet" type="text/css" />
                 <!-- Include the JavaScript code for processing the XML data -->
@@ -15,7 +15,7 @@
                 <table id="menuTable" class="indent">
                     <thead>
                         <tr>
-                            <th colspan="3">Paddy's Cafe Menu</th>
+                            <th colspan="3">Cesar's Wine Menu</th>
                         </tr>
                         <tr>
                             <th>Select</th>
@@ -24,7 +24,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <xsl:for-each select="/cafemenu/section">
+                        <xsl:for-each select="/winemenu/section">
                             <tr>
                                 <td colspan="3">
                                     <xsl:value-of select="@name" />
@@ -53,3 +53,4 @@
 </html>>
     </xsl:template>
 </xsl:stylesheet>
+

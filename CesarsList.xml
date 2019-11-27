@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="CesarsList.xsl"?>
 <cafemenu>
-    <section name="Side Dishes">
+    <section name="SPARKLING WINES">
         <entree vegetarian="true">
-            <item>Potato Salad</item>
-            <price>4.95</price>
+            <item>Chandon Brut Split</item>
+            <price>40</price>
         </entree>
         <entree>
-            <item>Paddy's French Fries</item>
-            <price>7.50</price>
+            <item>Chandon Brut Sparkling, Napa Valley, CA</item>
+            <price>118</price>
         </entree>
         <entree>
-            <item>Huevos Rancheros</item>
-            <price>8.50</price>
+            <item>Schramsberg Vineyards, CA</item>
+            <price>52</price>
         </entree>
     </section>
-    <section name="Breakfast">
+    <section name="CRISP, REFRESHING WHITES">
         <entree>
-            <item>Two Eggs, any style</item>
-            <price>4.99</price>
+            <item>Wente Vineyards, Riverbank Riesling, CA</item>
+            <price>32</price>
         </entree>
         <entree>
-            <item>Paddy's Famous Peppers and Eggs</item>
-            <price>8.29</price>
+            <item>Conundrum, White Blend, CA</item>
+            <price>50</price>
         </entree>
         <entree vegetarian="true">
-            <item>Bowl of fruit</item>
-            <price>6.99</price>
+            <item>Parducci Wine Cellars "Sustainable White", CA</item>
+            <price>34</price>
         </entree>
         <entree vegetarian="true">
-            <item>French toast</item>
-            <price>5.25</price>
+            <item>Martin Codax, Albarino, Rias Biaxas, Spain 08</item>
+            <price>34</price>
         </entree>
         <entree>
-            <item>Croissant</item>
-            <price>3.99</price>
+            <item>Pine Ridge, Chenin Blanc-Viognier, CA</item>
+            <price>35</price>
         </entree>
     </section>
-    <section name="Lunch">
+    <section name="SAUVIGNON BLANC">
         <entree>
-            <item>Grilled Chicken Sandwich</item>
+            <item>Branco</item>
             <price>7.99</price>
         </entree>
         <entree>
@@ -66,5 +66,8 @@
         </entree>
     </section>
 </cafemenu>
+
+
+
 
 

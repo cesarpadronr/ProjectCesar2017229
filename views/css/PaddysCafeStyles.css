@@ -1,3 +1,4 @@
+
 html {
   position: relative;
   min-height: 100%;
@@ -32,7 +33,13 @@ table, th, td {
  th {
      font-weight: bold;
 }
+<<<<<<< HEAD
 .selected {
             background-color: #dc3545;
             color: #FFF;
 }
+=======
+
+
+
+>>>>>>> db4ab4d5d8c7f01f3835217271606a4d2de37a4b

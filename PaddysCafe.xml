@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cafemenu>
   <section name="Side Dishes">
-<<<<<<< HEAD
     <entree vegetarian="true">
       <item>Potato Salad</item>
       <price>4.95</price>
     </entree>
-=======
->>>>>>> db4ab4d5d8c7f01f3835217271606a4d2de37a4b
     <entree>
       <item>Paddy's French Fries</item>
       <price>7.50</price>
     </entree>
-<<<<<<< HEAD
-=======
-    <entree>
-      <item>kjkjlkj</item>
-      <price/>
-    </entree>
->>>>>>> db4ab4d5d8c7f01f3835217271606a4d2de37a4b
   </section>
   <section name="Breakfast">
     <entree>
@@ -41,17 +31,6 @@
       <item>Croissant</item>
       <price>3.99</price>
     </entree>
-<<<<<<< HEAD
-=======
-    <entree>
-      <item>kjkjlkj</item>
-      <price/>
-    </entree>
-    <entree>
-      <item>mariana</item>
-      <price/>
-    </entree>
->>>>>>> db4ab4d5d8c7f01f3835217271606a4d2de37a4b
   </section>
   <section name="Lunch">
     <entree>

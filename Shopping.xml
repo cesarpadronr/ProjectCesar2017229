@@ -1,46 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ShoppingList>
   <section name="Food">
-    <entree>
+    <articles>
       <item>Milk</item>
       <quantity>1</quantity>
       <price>2.50</price>
-    </entree>
+    </articles>
+    <articles>
+      <item>Bread</item>
+      <quantity>1</quantity>
+      <price>2</price>
+    </articles>
   </section>
   <section name="Home">
-    <entree>
+    <articles>
       <item>Table</item>
       <quantity>1</quantity>
       <price>100</price>
-    </entree>
+    </articles>
+    <articles>
+      <item>Brush</item>
+      <quantity>1</quantity>
+      <price>4</price>
+    </articles>
   </section>
   <section name="Clothes">
-    <entree>
+    <articles>
       <item>T-Shirt</item>
       <quantity>1</quantity>
       <price>45</price>
-    </entree>
+    </articles>
   </section>
   <section name="Others">
-    <entree>
+    <articles>
       <item>Ticket to Berlin</item>
       <quantity>1</quantity>
       <price>50</price>
-    </entree>
+    </articles>
   </section>
-  <entree>
+  <articles>
     <item>Two Eggs, any style</item>
     <quantity>2</quantity>
     <price>4.99</price>
-  </entree>
-  <entree>
+  </articles>
+  <articles>
     <item>Two Eggs, any style</item>
     <quantity>2</quantity>
     <price>4.99</price>
-  </entree>
-  <entree>
+  </articles>
+  <articles>
     <item>Two Eggs, any style</item>
     <quantity>2</quantity>
     <price>4.99</price>
-  </entree>
+  </articles>
 </ShoppingList>

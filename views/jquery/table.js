@@ -25,12 +25,12 @@ function select_row()
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
 		var section = $(this).prevAll("tr").children("td[colspan='4']").length - 1;
-		var entree = $(this).attr("id") - 1;
-		delete_row(section, entree);
+		var articles = $(this).attr("id") - 1;
+		delete_row(section, articles);
 	})
 };
 
-function delete_row(sec, ent)
+function delete_row(sec, art)
 {
 	$("#delete").click(function ()
 	{
@@ -41,7 +41,7 @@ function delete_row(sec, ent)
 			data:
 			{
 				section: sec,
-				entree: ent
+				articles: art
 			},
 			cache: false,
 			success: setTimeout(draw_table, 1000)

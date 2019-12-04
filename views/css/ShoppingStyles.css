@@ -7,9 +7,12 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-   background: #ffffff;
-
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),  url('https://vice-images.vice.com/images/content-images-crops/2016/09/16/how-to-make-a-living-as-a-drag-queen22-body-image-1474049233-size_1000.jpg?output-quality=75');
+  
 }
+
+
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -30,20 +33,22 @@ table, th, td {
      border-collapse: collapse;
      width:100%;
      text-align: center;
+     background-color:rgb(252, 252, 252);opacity:0.7;
+     font-weight: bolder;
+     
       
 }
  td, th {
      border: 1px solid #fa2364;
      padding: 0.5rem;
      text-align: left;
-     background: #ffffff;
      font-weight: bolder ;
     
     
 }
  th {
      font-weight: bolder ;
-     background: #2291eb;
+     background: #f36dc0;
      text-align: center;
    
 }

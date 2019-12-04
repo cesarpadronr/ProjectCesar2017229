@@ -9,21 +9,19 @@
 	<title>IWA Demo App</title>
 	<!-- Bootstrap core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/PaddysCafeStyles.css" rel="stylesheet">
+	<link href="css/ShoppingStyles.css" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-		<div class="container">	<a class="navbar-brand" href="#">Paddy's Cafe</a>
+		<div class="container">	<a class="navbar-brand" href="#">My Shopping List</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				
 				</ul>
 			</div>
 		</div>
@@ -32,31 +30,42 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-left">
-				<h1 class="mt-5">Welcome to Paddy's Cafe</h1>
-				<p class="lead">Select your entrees from the menu below.</p>
+				<br> 
+                <br> 
+                 <br> 
+                 <b>
+				<FONT SIZE=4.5 class="mt-5">Select your entrees from the menu below</FONT SIZE=4.5>
+				</b>
 			</div>
 			<div id="results" class="col-lg-8 text-center order-3"></div>
 			<div class="col-lg-4 text-center order-2">
 				<form enctype="application/json" action="/post/json" method="post">
 					<div class="form-group">
 						<select class="form-control" name="sec_n">
-							<option value="0">Side Dishes</option>
-							<option value="1">Breakfast</option>
-							<option value="2">Lunch</option>
-							<option value="3">Dinner</option>
+							<option value="0">Food</option>
+							<option value="1">Home</option>
+							<option value="2">Clothes</option>
+							<option value="3">Others</option>
 						</select>
 					</div>
 					<div class="form-group">
 						<input class="form-control" type="text" name="item" placeholder="Item">
 					</div>
+                     <div class="form-group">
+						<input class="form-control" type="text" name="quantity" placeholder="Quantity">
+					</div>
 					<div class="form-group">
 						<input class="form-control" type="text" name="price" placeholder="Price">
 					</div>
+                   
+                    
 					<button type="submit" class="btn btn-primary btn-block">Submit</button>
 				</form>
                     <button id="delete" class="btn btn-block btn-danger">Delete</button>
-                    <p class="text-muted">To delete an entree, click the required row first</p>
-			</div>
+                   
+                    <FONT SIZE=4.5 class="text-muted">To delete an item, click the checkbox an press "Delete"</FONT SIZE=4.5>
+			
+            </div>
 		</div>
 	</div>
 	<footer class="footer">
@@ -69,10 +78,3 @@
 	<script src="js/bootstrap.min.js"></script>
 </body>
 
-<<<<<<< HEAD
-</html>
-=======
-</html>
-
-
->>>>>>> db4ab4d5d8c7f01f3835217271606a4d2de37a4b

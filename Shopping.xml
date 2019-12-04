@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShoppingList>
+  <section name="Food">
+    <entree>
+      <item>Milk</item>
+      <quantity>1</quantity>
+      <price>2.50</price>
+    </entree>
+  </section>
+  <section name="Home">
+    <entree>
+      <item>Table</item>
+      <quantity>1</quantity>
+      <price>100</price>
+    </entree>
+  </section>
+  <section name="Clothes">
+    <entree>
+      <item>T-Shirt</item>
+      <quantity>1</quantity>
+      <price>45</price>
+    </entree>
+  </section>
+  <section name="Others">
+    <entree>
+      <item>Ticket to Berlin</item>
+      <quantity>1</quantity>
+      <price>50</price>
+    </entree>
+  </section>
+  <entree>
+    <item>Two Eggs, any style</item>
+    <quantity>2</quantity>
+    <price>4.99</price>
+  </entree>
+  <entree>
+    <item>Two Eggs, any style</item>
+    <quantity>2</quantity>
+    <price>4.99</price>
+  </entree>
+  <entree>
+    <item>Two Eggs, any style</item>
+    <quantity>2</quantity>
+    <price>4.99</price>
+  </entree>
+</ShoppingList>

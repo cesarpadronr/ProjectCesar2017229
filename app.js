@@ -49,7 +49,7 @@ router.get('/get/html', function(req, res) {
 
     res.end(result.toString()); //We render the result back to the user converting it to a string before serving
 
-
+////
 });
 
 // POST request to add to JSON & XML files

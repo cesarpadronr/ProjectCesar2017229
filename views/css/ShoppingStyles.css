@@ -4,6 +4,10 @@ html {
   min-height: 100%;
    
 }
+label {
+  width:200px;
+  display: inline-block;
+}
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;

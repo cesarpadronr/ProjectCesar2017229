@@ -11,7 +11,7 @@ const mongoOptions = {useNewUrlParser : true};
 const state = {
     db : null
 };
-////dd
+
 const connect = (cb) =>{
     // if state is not NULL
     // Means we have connection already, call our CB

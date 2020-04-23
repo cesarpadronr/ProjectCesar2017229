@@ -11,7 +11,7 @@ const db = require("./db");
 const collection = "tobuy";
 
 
-// schema used for data validation for our todo document
+// schema used for data validation for our tobuy document
 const schema = Joi.object().keys({
     tobuy : Joi.string().required()
 });
@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
 
 // read
 app.get('/getTobuy',(req,res)=>{
-    // get all Todo documents within our todo collection
+    // get all Tobuy documents within our tobuy collection
     // send back to user as json
     db.getDB().collection(collection).find({}).toArray((err,documents)=>{
         if(err)
@@ -38,7 +38,7 @@ app.get('/getTobuy',(req,res)=>{
 
 // update
 app.put('/:id',(req,res)=>{
-    // Primary Key of Todo Document we wish to update
+    // Primary Key of Tobuy Document we wish to update
     const tobuyID = req.params.id;
     // Document used to update
     const userInput = req.body;
@@ -60,10 +60,10 @@ app.post('/',(req,res,next)=>{
     // Document to be inserted
     // Validate document
     // If document is invalid pass to error middleware
-    // else insert document within todo collection
+    // else insert document within tobuy collection
     Joi.validate(userInput,schema,(err,result)=>{
         if(err){
-            const error = new Error("Invalid Input");
+            const error = new Error("You need to type something...");
             error.status = 400;
             next(error);
         }
@@ -71,13 +71,13 @@ app.post('/',(req,res,next)=>{
 
             db.getDB().collection(collection).insertOne(userInput,(err,result)=>{
                 if(err){
-                    const error = new Error("Failed to insert Todo Document");
+                    const error = new Error("You need to type something...");
                     error.status = 400;
                     next(error);
                     
                 }
                 else
-                    res.json({result : result, document : result.ops[0],msg : "Successfully inserted Todo!!!",error : null});
+                    res.json({result : result, document : result.ops[0],msg : "Stuff inserted, great choice!!!",error : null});
                 });
             }
         })    
@@ -85,7 +85,7 @@ app.post('/',(req,res,next)=>{
     
 //delete
 app.delete('/:id',(req,res)=>{
-    // Primary Key of Todo Document
+    // Primary Key of Tobuy Document
     const tobuyID = req.params.id;
     // Find Document By ID and delete document from record
     db.getDB().collection(collection).findOneAndDelete({_id : db.getPrimaryKey(tobuyID)},(err,result)=>{

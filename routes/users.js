@@ -9,7 +9,7 @@ router.get("/", (req, res, next) => {
         message:"Serving Users on the Endpoint."
     });   
 });
-
+//When a new user is created or updated, we need to list it on our UI, thsi command will query the MongoDB and find the User
 router.get("/list", (req, res, next) => {
     User.find({})
         .exec()

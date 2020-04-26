@@ -96,11 +96,11 @@ function getDelBtn(val) {
 function editDelBtn(val) {
     return '<td><button type="button" id='+ val +' class="btn btn-default btn-sm btn-del-record"><span class="fa fa-trash-alt"></span> Edit </button></td>';
 }
-const buildIDS = (todo)=>{
+const buildIDS = (tobuy)=>{
     return {
-        editID : "edit_" + todo._id,
-        deleteID : "delete_" + todo._id,
+        editID : "edit_" + tobuy._id,
+        deleteID : "delete_" + tobuy._id,
         listItemID : "listItem_" + todo._id,
-        todoID : "todo_" + todo._id
+        tobuyID : "tobuy_" + tobuy._id
     }
 }

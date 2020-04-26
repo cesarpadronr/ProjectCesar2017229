@@ -1,0 +1,86 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background: linear-gradient(rgba(255,255,255,.10), rgba(255,255,255,.10)),  url('https://vice-images.vice.com/images/content-images-crops/2016/09/16/how-to-make-a-living-as-a-drag-queen22-body-image-1474049233-size_1000.jpg?output-quality=75');
+}
+.footer { 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #fa2364
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+  
+  
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 30px solid #fa2364
+
+}
+
+tr:hover td {
+  background: rgb(255, 0, 106);
+}
+ 
+
+table, th, td {
+  border-collapse: collapse;
+  border: 6px solid rgb(230, 218, 222);
+  text-align: center;
+  background: #f36dc0;
+
+}
+
+td, th {
+  border: 1px solid #ebe4e6;
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: bolder ;
+  background: rgba(228, 10, 181, 0.377);
+}
+th {
+  background-color: #f36dc0;
+  text-align: center;
+  font-weight: bolder ;
+}
+td {
+  font-weight: bolder ;
+  background: rgba(228, 10, 181, 0.377);
+  text-align: center;
+}
+div {
+  background: rgba(216, 0, 90, 0.068) /* Green background with 30% opacity */
+  }
+  
+
+
+button{
+  background-color: rgb(186, 0, 77);} /* Blue */
+
+tablepress thead th,
+tablepress tfoot th {
+    background-color: #ff0000;
+    color: #00ff00;
+  }
+
+
+  

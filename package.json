@@ -1,7 +1,6 @@
 {
   "name": "projectcesar2017229",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js --exec babel-node --presets env",
@@ -33,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/cesarpadronr/ProjectCesar2017229/issues"
   },
-  "homepage": "https://github.com/cesarpadronr/ProjectCesar2017229#readme"
+  "homepage": "https://github.com/cesarpadronr/ProjectCesar2017229#readme",
+  "description": ""
 }

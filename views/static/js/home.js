@@ -100,7 +100,7 @@ const buildIDS = (tobuy)=>{
     return {
         editID : "edit_" + tobuy._id,
         deleteID : "delete_" + tobuy._id,
-        listItemID : "listItem_" + todo._id,
+        listItemID : "listItem_" + tobuy._id,
         tobuyID : "tobuy_" + tobuy._id
     }
 }
